@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Taskade</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900,900i&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="images/x-icon" href="favicon.ico">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+
+
+      }
+      body{
+        background-image: url('login.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+      h3, h5 {
+        font-weight: 400;
+        color: black;
+
+      }
+      input.form-control {
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: -25px;
+        font-size: 18px;
+      }
+      #third-input {
+        margin-bottom: 50px;
+      }
+
+      #for-free {
+        padding-right: 140px;
+        padding-left: 140px;
+      }
+
+      #for-free:hover {
+        transition: ease-in-out 300ms 1.5em;
+      }
+
+      #first-btn {
+        border: 1px solid  #adabad ;
+        font-size: 17px;
+        padding-right: 75px;
+        padding-left: 75px;
+      }
+      #first-btn:hover {
+        background: #f7f7f7;
+      }
+      #or {
+        margin-bottom: -7px;
+      }
+      #or a, #last a {
+        color: black;
+      }
+      #or a:hover,
+      #last a:hover {
+        text-decoration: none;
+      }
+
+      @media (max-width: 366px) {
+        #first-btn {
+          padding-left: 51px;
+          padding-right: 51px;
+          font-size: 15px;
+        }
+        #for-free {
+          font-size: 16px;
+          padding-right: 105px;
+          padding-left: 105px;
+        }
+      }
+
+    </style>
+</head>
+<body>
+  <div class=" container text-center mt-5">
+    <a href="y.html"><img src="LOGO.png"></a>
+    <h3 class="mt-4 mb-1"> Log in</h3>
+    <h5 class="text-muted mb-4">Welcome back to Manage.Io 👋</h5>
+    <a href="http://www.gmail.com" type="button" class="btn btn-lg btn-outline mb-3" id="first-btn"><img src="https://raw.githubusercontent.com/mehdyec/taskade-imitation/master/icons8-google-24(1).png"> Login with Google</a>
+    <p id="or"><a href="https://www.facebook.com">Facebook</a> <span class="text-muted">or</span> <a href="https://www.twitter.com">Twitter</a></p>
+  <div class="d-flex justify-content-center">
+  <form>
+    <div class="form-group">
+      <label for="email"></label>
+      <input type="email" class="form-control" placeholder="Email" required>
+      </div>
+    <div class="form-group" id="third-input">
+      <label for="password"></label>
+      <input type="password" class="form-control" placeholder="Password" minlength="8" maxlength="20" required>
+    </div>
+  </form>
+  </div>
+
+  <div class="text-center">
+    <button type="submit" id="for-free" class="btn btn-lg btn-danger">Log in</button>
+  </div>
+  <div>
+    <p id="last" class="text-muted mt-4">Don't have an account? <a href="sign_up.html">Sign up for free</a></p>
+  </div>
+</div>
+</body>
+</html>
